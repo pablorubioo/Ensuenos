@@ -1,0 +1,58 @@
+﻿/*-
+	name:	  Ensueños S.L.
+	author:   Pablo Rubio Machacón 
+	emails:   pablorubio@usal.es  
+*/
+
+* { margin: 0; padding: 0; }
+body { font: .74em Tahoma, Verdana, Sans-Serif, Arial; background: url(../images/fondo.jpg) fixed no-repeat; color: #000;}
+h1 { font: normal 3.4em "Trebuchet MS", Helvetica, Arial; float:center; }
+h2 { font: normal 1.8em "Trebuchet MS", Helvetica, Arial; color: #000; margin: 0 0 15px; }
+h3 { font: normal 1.4em "Trebuchet MS", Helvetica, Arial; margin: 0 0 20px; }
+h4 { font: normal 1.2em "Trebuchet MS", Helvetica, Arial; color: #000; margin: 0 0 4px; }
+p { margin: 0 0 15px; line-height: 1.6em; }
+a { outline: 0; color: #304D6F; text-decoration: none; }
+li { list-style: none; }
+li a { display: block; }
+img { outline: 0; border: 0; }
+
+#wrapper { width: 984px; margin: auto; 
+}
+.clr { clear: both; }
+
+
+
+#logo { text-align:left; padding: 30px 15px; }
+	#logo h1 a { color: #000; }
+		#logo h1 a span { color: #808080; }
+		
+#menu { height: 40px; padding: 5px 0 0 5px;     }
+	#menu li { float: left; font-size: 1.7em; text-transform: uppercase; }
+		#menu li a { color: #000; margin: 0 50px 0 0;}
+			#menu li a.current, #menu li a:hover { color: #000099; }			
+			
+	#intro { clear: both; color:#fff; background-color: #fff; background-image: url(../images/portada.jpg); background-repeat: no-repeat;  background-position:right; height: 315px; margin: 0 0 30px; padding: 60px 360px 0 30px; 
+	-webkit-border-radius:10px;/*Para chrome y Safari*/
+    -moz-border-radius:10px;/*Para Firefox*/
+    border-radius:10px;/*El estandar por defecto*/
+	}
+		#intro h1 { font-size: 2.4em; color: #FFF; margin: 0 0 20px; }
+		#intro em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
+		
+.content {  padding: 20px; }
+.link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
+
+#main { padding: 20px; }
+
+.col { float: left; width: 292px; margin: 0 30px 15px 0; }
+	.col.last { float: right; margin-right: 0; }
+	.case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; width:70px;}
+	.short { padding: 0 0 15px 0; background: url(../images/line.gif) repeat-x left bottom; }
+	.case a, .article a { color: #000; font-weight: bold; }
+	.date { font-size: .84em; margin: 0 0 3px; }
+	
+#footer { clear: both; background: url(../images/line.gif) repeat-x; padding: 20px 20px 10px; font-size: .9em; }
+	#footer a { color: #000; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+	#links { float: right; }
+		#links a { margin: 0 0 0 10px; }
+	#footer p { margin: 0 0 8px; }

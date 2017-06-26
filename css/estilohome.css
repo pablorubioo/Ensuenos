@@ -1,0 +1,179 @@
+﻿/*-
+	name:	  Ensueños S.L.
+	author:   Pablo Rubio Machacón 
+	emails:   pablorubio@usal.es  
+*/
+
+* { margin: 0; padding: 0; }
+body { font: .74em Tahoma, Verdana, Sans-Serif, Arial; background: url(../images/fondo.jpg) fixed no-repeat; color: #000; }
+h1 { font: normal 3.4em "Trebuchet MS", Helvetica, Arial; float:center; }
+h2 { font: normal 1.8em "Trebuchet MS", Helvetica, Arial; color: #000; margin: 0 0 15px; }
+h3 { font: normal 1.4em "Trebuchet MS", Helvetica, Arial; margin: 0 0 20px; }
+h4 { font: normal 1.2em "Trebuchet MS", Helvetica, Arial; color: #000; margin: 0 0 4px; }
+p { margin: 0 0 15px; line-height: 1.6em; }
+a { outline: 0; color: #304D6F; text-decoration: none; }
+li { list-style: none; }
+li a { display: block; }
+img { outline: 0; border: 0; }
+
+#wrapper { width: 984px; margin: auto; 
+}
+.clr { clear: both; }
+
+
+
+#logo { text-align:left; padding: 30px 15px; }
+	#logo h1 a { color: #000; }
+		#logo h1 a span { color: #808080; }
+		
+#menu { height: 40px; padding: 5px 0 0 5px;   }
+	#menu li { float: left; font-size: 2.0em; text-transform: uppercase; }
+		#menu li a { color: #000; margin: 0 75px 0 0;}
+			#menu li a.current, #menu li a:hover { color: #000099; }			
+			
+	#intro { clear: both; color:#fff; background-color: #fff; background-image: url(../images/portada.jpg); background-repeat: no-repeat;  background-position:right; height: 315px; margin: 0 0 30px; padding: 60px 360px 0 30px; 
+	-webkit-border-radius:10px;/*Para chrome y Safari*/
+    -moz-border-radius:10px;/*Para Firefox*/
+    border-radius:10px;/*El estandar por defecto*/
+	}
+		#intro h1 { font-size: 2.4em; color: #FFF; margin: 0 0 20px; }
+		#intro em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
+		
+.content {  padding: 20px; }
+.link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
+
+#main { padding: 20px; }
+
+.col { float: left; width: 292px; margin: 0 30px 100px 0; }
+	.col.last { float: right; margin-right: 0; }
+	.case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
+	.short { padding: 0 0 15px 0; background: url(../images/line.gif) repeat-x left bottom; }
+	.case a, .article a { color: #000; font-weight: bold; }
+	.date { font-size: .84em; margin: 0 0 3px; }
+	
+#footer { clear: both; background: url(../images/line.gif) repeat-x; padding: 20px 20px 10px; font-size: .9em; }
+	#footer a { color: #000; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+	#links { float: right; }
+		#links a { margin: 0 0 0 10px; }
+	#footer p { margin: 0 0 8px; }
+	
+	
+	
+	.contact-form {
+	width: 400px;
+	text-align: left;
+
+}
+
+/* Form input box style */
+.form-input {
+	display: block;
+	width: 300px;
+	height: 15px;
+	margin-bottom: 15px;
+	color: #000;
+	background-color: #FF9;
+	border: 1px solid #999;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	behavior: url(PIE.htc);
+	font-family: "Century Gothic";
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+/* Focus style */
+.form-input:focus {
+	border: 1px solid #7fbbf9;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #7fbbf9;
+}
+
+/* Error style */
+.form-input:-moz-ui-invalid {
+	border: 1px solid #e00;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+}
+
+.form-input.invalid {
+	border: 1px solid #e00;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+}
+
+/* Form submit button */
+.form-btn {
+	padding: 0 15px;
+	height: 30px;
+	font: bold 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	outline: none;
+	position: relative;
+	background-color: #1d83e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1d83e2), to(#0d3d6a)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #1d83e2, #0d3d6a); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #1d83e2, #0d3d6a); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #1d83e2, #0d3d6a); /* IE10 */
+	background-image:      -o-linear-gradient(top, #1d83e2, #0d3d6a); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #1d83e2, #0d3d6a);
+	-pie-background:          linear-gradient(top, #1d83e2, #0d3d6a); /* IE6-IE9 */
+	-moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+	behavior: url(PIE.htc);
+}
+
+.form-btn:active {
+	border: 1px solid #1d83e2;
+	background-color: #0d3d6a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3d6a), to(#1d83e2)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #0d3d6a, #1d83e2); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #0d3d6a, #1d83e2); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #0d3d6a, #1d83e2); /* IE10 */
+	background-image:      -o-linear-gradient(top, #0d3d6a, #1d83e2); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #0d3d6a, #1d83e2);
+	-pie-background:          linear-gradient(top, #0d3d6a, #1d83e2); /* IE6-IE9 */
+	-moz-box-shadow:    inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+
+	box-shadow:         inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	behavior: url(PIE.htc);
+}
+
+
+@font-face {
+    font-family: 'digital_dream';
+    src: url('digital_dream/digitaldreamfatskew-webfont.eot');
+    src: url('digital_dream/digitaldreamfatskew-webfont.eot?#iefix') format('embedded-opentype'),
+         url('digital_dream/digitaldreamfatskew-webfont.woff2') format('woff2'),
+         url('digital_dream/digitaldreamfatskew-webfont.woff') format('woff'),
+         url('digital_dream/digitaldreamfatskew-webfont.ttf') format('truetype'),
+         url('digital_dream/digitaldreamfatskew-webfont.svg#digital_dream_fat_skewregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}		
+#cronometro { padding:10px; border: 5px #000 double; width: 200px;
+              text-align: center; background-color: #1d83e2; border-radius: 5px;
+							float: right; margin: 1em 3em 1em 3em; }
+#reloj { padding: 5px 10px; width: 90% ;border: 1px solid black; 
+         font: normal 1em digital_dream, europa, arial; text-align: center; 
+         margin: 4px; background-color: #f0ffff; border-radius: 3px;  }
+#cronometro [type=button]  { margin: 4px; font: normal 9pt arial; width: 70px; } 
